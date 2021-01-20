@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="container mx-auto mt-5 text-center">
+    
+    <div class="bg-blue-200 h-64 flex justify-around items-center">
+        <div class="bg-green-500 p-4 m-2">1</div>
+        <div class="bg-green-500 p-4 m-2">2</div>
+        <div class="bg-green-500 p-4 m-2">3</div>
+    </div>
+
+    <div class="mt-10 bg-blue-200 h-64 flex flex-wrap content-center justify-between">
+        <div class="bg-green-500 p-4 m-2">1</div>
+        <div class="bg-green-500 p-4 m-2">2</div>
+        <div class="bg-green-500 p-4 m-2">3</div>
+    </div>
+
+    <div class="mt-10 bg-blue-200 h-64 flex flex-wrap items-start">
+        <div class="bg-green-500 p-4 m-2">1</div>
+        <div class="self-center bg-green-500 p-4 m-2">2</div>
+        <div class="bg-green-500 p-4 m-2">3</div>
+    </div>
+
+    <div class="mt-10 bg-blue-200 h-64 flex flex-wrap items-start">
+        <div class="bg-green-500 p-4 m-2">1</div>
+        <div class="flex-1 bg-green-500 p-4 m-2">Lorem ipsum dolor sit.</div>
+        <div class="bg-green-500 p-4 m-2">3</div>
+    </div>
+
+</body>
+</html>

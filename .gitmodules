@@ -1,0 +1,3 @@
+[submodule "tailreact"]
+	path = tailreact
+	url = ./reactail/tailreact
